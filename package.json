@@ -1,0 +1,33 @@
+{
+  "name": "littledb",
+  "version": "1.0.0",
+  "description": "lowdb sample for 1.125",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm i --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i --prefix client && npm run build --prefix client"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "google-auth-library": "^7.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "mongodb": "^3.6.2",
+    "react": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "unique-random": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
