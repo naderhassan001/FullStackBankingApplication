@@ -42,13 +42,15 @@ In a previous prject, I created a bank app. This app allowed me to deposit, with
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 
-### This project Includes the Following Technologies:
-* [Firebase authentication](https://firebase.google.com/)
-* [React](https://reactjs.org/)
-* [Node.js](https://nodejs.org/en/)
-* [MongoDB](https://www.mongodb.com/)
-* [Bootstrap](https://getbootstrap.com/)
+### The Technology Used in the Creation of the Application 
+
 * Boostrap 
+* Firebase
+* React
+* MongoDB
+* Bootstrap
+* NodeJS
+
 
 
 
