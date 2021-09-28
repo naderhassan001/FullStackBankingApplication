@@ -1,6 +1,6 @@
-# FullStackBankingApplication
+# Full Stack Banking Application
 
-<h3 align="center">"Bad Bank" Three-Tier Project</h3>
+<h3 align="center">"Bad Bank" Three-Tier App/h3>
 
 </p>
 
