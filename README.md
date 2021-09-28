@@ -36,18 +36,19 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-BadBank application with front-end, back-end, and database. "Bad Bank" is a reference to the fact that this project was an unsecure application in it's earlier iteration, however, we will be using firebase authentication to create different levels of authorization for this iteration. This project was created in my effort to learn how to build a complete 3-tier application and it will continue to grow as my knowledge of application development grows. It is designed to be an easy way to show off things I'm learning in my Master's Full Stack Development program. 
+## About:
+In a previous prject, I created a bank app. This app allowed me to deposit, withdraw, and create an account. The project was a website that only included a front-end portion. As such, it was not a secure website, thus it being called a "bad bank". In this app, we upgrade this website into a full stack application. With a secure backend portion, theis full stack app is a complete ready to use banking app. This app concludes the final capstone project in MIT's Full Stacking Coding Program. 
+
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 
-### Built With
+### This project Includes the Following Technologies:
 * [Firebase authentication](https://firebase.google.com/)
 * [React](https://reactjs.org/)
 * [Node.js](https://nodejs.org/en/)
-* [Docker](https://www.docker.com/)
 * [MongoDB](https://www.mongodb.com/)
 * [Bootstrap](https://getbootstrap.com/)
+* Boostrap 
 
 
 
