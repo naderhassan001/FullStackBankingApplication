@@ -5,13 +5,13 @@ const { v4: uuidv4 } = require('uuid');
 
 // connect to mongo
 MongoClient.connect(
-  'mongodb+srv://sajid13:sajid13@contactkeeper.dcvat.mongodb.net/myproject?retryWrites=true&w=majority',
+  'mongodb+srv://nateh:Whocares123!@tmcluster.ifsht.mongodb.net/bank?retryWrites=true&w=majority',
   { useUnifiedTopology: true },
   function (err, client) {
     console.log('Connected successfully to db server');
 
     // connect to myproject database
-    db = client.db('myproject');
+    db = client.db('login');
   }
 );
 
