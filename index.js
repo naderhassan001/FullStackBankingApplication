@@ -7,7 +7,7 @@ const path = require('path');
 const { OAuth2Client } = require('google-auth-library');
 
 const client = new OAuth2Client(
-  '962701474716-21djrin4vujqf7j9rcilur4b69hukvs4.apps.googleusercontent.com'
+  '118740429808-b9r40h91la2cdm4sm74ml1uqgkk3tkfa.apps.googleusercontent.com'
 );
 
 // used to serve static files from public directory
@@ -111,7 +111,7 @@ app.get('/account/googlelogin/:idToken', async function (req, res) {
       await client.verifyIdToken({
         idToken,
         audience:
-          '962701474716-21djrin4vujqf7j9rcilur4b69hukvs4.apps.googleusercontent.com',
+          '118740429808-b9r40h91la2cdm4sm74ml1uqgkk3tkfa.apps.googleusercontent.com',
       });
     let user;
     if (email_verified) {
