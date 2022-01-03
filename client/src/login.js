@@ -121,7 +121,7 @@ function LoginForm(props) {
       <GoogleLogin
         className='mt-2 w-100 text-center font-weight-bold'
         theme='dark'
-        clientId='962701474716-21djrin4vujqf7j9rcilur4b69hukvs4.apps.googleusercontent.com'
+        clientId='118740429808-b9r40h91la2cdm4sm74ml1uqgkk3tkfa.apps.googleusercontent.com'
         buttonText='Login with Google'
         onSuccess={responseGoogle}
         onFailure={errResponseGoogle}
