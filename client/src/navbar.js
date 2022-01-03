@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <a className='navbar-brand' href='#' style={{ fontFamily: 'sans-serif' }}>
-        <strong>BadBank</strong>
+        <strong>"Nader's Bank"</strong>
       </a>
       <button
         className='navbar-toggler'
