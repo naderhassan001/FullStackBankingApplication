@@ -15,7 +15,7 @@ export default function Home() {
         <Card
           txtcolor='black'
           header='Full Bank Landing Module'
-          title='Welcome to Nader's Bank'
+          title="Welcome to Nader's Bank"
           text='You can move around using the navigation bar.'
           body={<img src={bank} className='img-fluid' alt='Responsive image' />}
         />
