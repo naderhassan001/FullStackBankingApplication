@@ -14,8 +14,8 @@ export default function Home() {
       <div style={{ padding: '20px' }}>
         <Card
           txtcolor='black'
-          header='BadBank Landing Module'
-          title='Welcome to the bank'
+          header='Full Bank Landing Module'
+          title='Welcome to Nader's Bank'
           text='You can move around using the navigation bar.'
           body={<img src={bank} className='img-fluid' alt='Responsive image' />}
         />
