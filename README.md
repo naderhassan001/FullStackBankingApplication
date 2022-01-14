@@ -14,6 +14,8 @@ In a previous prject, I created a bank app. This app allowed me to deposit, with
 
 ## Installation Guideline
 
+This app can be found at https://banking123456.herokuapp.com/#/
+
 
 1. Clone the repo where the app is hosted
    ```sh
